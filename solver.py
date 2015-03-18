@@ -3,7 +3,10 @@
 
 __author__ = 'feigao'
 
-target = "http://www.pythonchallenge.com/pc/def/{}.html"
+# target = "http://www.pythonchallenge.com/pc/def/{}.html"
+
+# Problems from 8 changes url
+target = "http://www.pythonchallenge.com/pc/return/{}.html"
 
 import sys
 
