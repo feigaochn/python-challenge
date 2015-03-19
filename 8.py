@@ -10,10 +10,10 @@ def solve_it():
 
     import bz2
 
-    print('username :' + bz2.decompress(un).decode())
-    print('password :' + bz2.decompress(pw).decode())
+    print('username: ' + bz2.decompress(un).decode())   # huge
+    print('password: ' + bz2.decompress(pw).decode())   # file
 
     # click the insect to go to
     # http://www.pythonchallenge.com/pc/return/good.html
     # with above username and password
-    return None
+    return 'good'
